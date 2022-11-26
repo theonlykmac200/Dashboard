@@ -8,11 +8,11 @@ function App() {
   return (
     <div className="App">
       <div>
-        <Aside />
-        <Avg_rating />
-        <Reviews />
-        <Sentiment />
-        <Visitors />
+        <div><Aside /></div>
+        <div><Avg_rating /></div>
+        <div><Reviews /></div>
+        <div><Sentiment /></div>
+        <div><Visitors /></div>
       </div>
     </div>
   );
