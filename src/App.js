@@ -7,14 +7,18 @@ import Visitors from './components/Visitors';
 function App() {
   return (
     <div className="App">
-      <div>
+      <div className="Aside">
         <div><Aside /></div>
-        <div><Avg_rating /></div>
-        <div><Reviews /></div>
-        <div><Sentiment /></div>
-        <div><Visitors /></div>
       </div>
-    </div>
+      <div className="Metrics">
+        <div className="avg-rating"><Avg_rating /></div>
+        <div className="reviews"><Reviews /></div>
+        <div className="Sentiment"><Sentiment /></div>
+      </div>
+       <div className="Visitors">
+        <div><Visitors /></div>
+       </div> 
+      </div>
   );
 }
 

@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(247, 206, 247);
+
+}
+.App {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 2fr);
+    border: 1px solid black;
+    align-items: center;
+
+
+}
+.Aside {
+    align-content: center;
+}
+.Metrics {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.avg-rating, .reviews, .Sentiment {
+    border: 5px solid black;
+    padding: 20px;
+}
+.Visitors {
+    display: grid;
+    grid-area: 2/2/3/3;
+    border: 1px solid black;
+}
