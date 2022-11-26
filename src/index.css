@@ -4,7 +4,6 @@ body {
 }
 .App {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(1, 2fr);
     border: 1px solid black;
     align-items: center;
@@ -12,7 +11,7 @@ body {
 
 }
 .Aside {
-    align-content: center;
+    margin: auto;
 }
 .Metrics {
     display: flex;
@@ -22,10 +21,13 @@ body {
 
 .avg-rating, .reviews, .Sentiment {
     border: 5px solid black;
+    border-radius: 20%;
     padding: 20px;
 }
 .Visitors {
     display: grid;
     grid-area: 2/2/3/3;
-    border: 1px solid black;
+    margin: 5px;
+    border: 1px solid   black;
+    border-radius: 20%;
 }
