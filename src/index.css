@@ -1,3 +1,5 @@
+/* I would stick with one type of syntax for naming your classes you use .Aside and .avg-rating which will make creating bugs a problem.I realize react uses .App but I would stick with the traditionaly css class names which is kabab case. */
+
 body {
     background-color: rgb(247, 206, 247);
 
